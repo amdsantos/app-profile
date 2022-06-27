@@ -17,7 +17,7 @@ const App = () => {
       <View style={style.content}>
         <Image style={style.avatar} source={{uri: imageProfileGit}} />
         <Text style={style.defaultText}> Amanda Santos</Text>
-        <Text style={style.defaultText}>amdsantos </Text>
+        <Text style={style.defaultText}>🌈 👩‍💻 🚀</Text>
         <Text style={style.defaultText}>
           👩‍🎓 Estudante de Sistemas para Internet na FIAP.{'\n'}
           📚 Sou uma pessoa curiosa que adora aprender coisas novas.{'\n'}
