@@ -43,6 +43,15 @@ const App = () => {
           💻 Sou apaixonada por tecnologia.{'\n'}
           😄 Pronomes: Ela / Dela.
         </Text>
+        <View style={style.teste2}>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+        </View>
         <Pressable onPress={handlePressGoToGithub}>
           <View style={style.button}>
             <Text style={style.textButton}>Open in Github</Text>
@@ -94,5 +103,15 @@ const style = StyleSheet.create({
   textButton: {
     fontWeight: 'bold',
     fontSize: 16,
+  },
+  teste2: {
+    flex: 1,
+  },
+  teste: {
+    width: 15,
+    height: 15,
+    borderBottomColor: 'green',
+    borderRadius: 5,
+    backgroundColor: 'green',
   },
 });
