@@ -51,6 +51,87 @@ const App = () => {
           <Text style={style.teste}> </Text>
           <Text style={style.teste}> </Text>
           <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+        </View>
+        <View style={style.teste2}>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+        </View>
+        <View style={style.teste2}>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste}> </Text>
+        </View>
+        <View style={style.teste2}>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste}> </Text>
+        </View>
+        <View style={style.teste2}>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste3}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+        </View>
+        <View style={style.teste2}>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
+          <Text style={style.teste}> </Text>
         </View>
         <Pressable onPress={handlePressGoToGithub}>
           <View style={style.button}>
@@ -95,7 +176,7 @@ const style = StyleSheet.create({
     marginTop: 20,
   },
   button: {
-    marginTop: 30,
+    marginTop: 25,
     backgroundColor: '#C9D1D9',
     borderRadius: 10,
     padding: 20,
@@ -106,12 +187,22 @@ const style = StyleSheet.create({
   },
   teste2: {
     flex: 1,
+    margin: 10,
+    marginTop: 10,
+    flexDirection: 'row',
   },
   teste: {
-    width: 15,
-    height: 15,
-    borderBottomColor: 'green',
-    borderRadius: 5,
-    backgroundColor: 'green',
+    width: 20,
+    height: 20,
+    margin: 2,
+    borderRadius: 10,
+    backgroundColor: '#0E4429',
+  },
+  teste3: {
+    width: 20,
+    height: 20,
+    margin: 2,
+    borderRadius: 11,
+    backgroundColor: '#26A641',
   },
 });
